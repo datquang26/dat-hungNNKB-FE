@@ -20,4 +20,9 @@ const deteleUsersService = (userId) => {
     })
 }
 
-export { handleLoginApi, getAllUsers, createNewUserService, deteleUsersService }
+const editUserService = (inputData) => {
+    return axios.put('/api/edit-user', inputData);
+}
+export { handleLoginApi, getAllUsers, 
+         createNewUserService, deteleUsersService,
+         editUserService, }
