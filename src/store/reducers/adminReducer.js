@@ -45,7 +45,7 @@ const adminReducer = (state = initialState, action) => {
         
             }
 
-        case actionTypes.FETCH_POSITION_FAIDED:
+        case actionTypes.FETCH_POSITION_FAIlDED:
             
             state.positions = [];
             return {
@@ -61,7 +61,7 @@ const adminReducer = (state = initialState, action) => {
         
             }
 
-        case actionTypes.FETCH_ROLE_FAIDED:
+        case actionTypes.FETCH_ROLE_FAILDED:
             
             state.roles = [];
             return {

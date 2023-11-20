@@ -29,4 +29,5 @@ const getAllCodeService = (inputType) => {
 }
 export { handleLoginApi, getAllUsers, 
          createNewUserService, deteleUsersService,
-         editUserService, getAllCodeService }
+         editUserService, getAllCodeService 
+}
