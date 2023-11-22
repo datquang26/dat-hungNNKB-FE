@@ -17,7 +17,7 @@
     color: red !important;
 }
 
-.slick-newxt {
+.slick-next {
     right: -5px !important;
     z-index: 1000 !important;
     height: 48px !important;
@@ -28,6 +28,10 @@
     &:hover {
         background: #eceaea !important;
     }
+}
+
+.slick-disabled {
+    display: none !important;
 }
 
 .section-share {
@@ -47,6 +51,7 @@
 
     .section-body {
         .section-customize {
+            border: 1px solid orange;
             .bg-image {
                 width: 278px;
                 height: 150px;
@@ -69,6 +74,7 @@
                     height: 120px;
                     border-radius: 50%;
                     margin-left: 110px;
+                    
                 }
 
                 &.section-handbook {
