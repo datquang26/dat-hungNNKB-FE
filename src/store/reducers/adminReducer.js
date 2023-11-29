@@ -118,17 +118,17 @@ const adminReducer = (state = initialState, action) => {
                 ...state,
             }
 
-            case actionTypes.FETCH_REQUIRED_DOCTOR_INFOR_SUCCESS:
-                state.allRequiredDoctorInfor = action.data;
-                return {
-                    ...state,
-                }
+        case actionTypes.FETCH_REQUIRED_DOCTOR_INFOR_SUCCESS:
+            state.allRequiredDoctorInfor = action.data;
+            return {
+                ...state,
+            }
     
-            case actionTypes.FETCH_REQUIRED_DOCTOR_INFOR_FAIDED:
-                state.allRequiredDoctorInfor = [];
-                return {
-                    ...state,
-                }
+        case actionTypes.FETCH_REQUIRED_DOCTOR_INFOR_FAIDED:
+            state.allRequiredDoctorInfor = [];
+            return {
+                ...state,
+            }
 
 
             

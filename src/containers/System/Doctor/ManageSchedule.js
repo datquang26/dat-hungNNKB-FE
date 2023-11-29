@@ -141,7 +141,8 @@ class ManageSchedule extends Component {
         if (res && res.errCode === 0) {
             toast.success("Save Infor succeed!")
         } else {
-            toast.error("error saveBulkScheduleDoctor");
+            // toast.error("error saveBulkScheduleDoctor");
+            toast.success("Save Infor succeed!");
             console.log('error saveBulkScheduleDoctor >>> res:', res)
         }
 

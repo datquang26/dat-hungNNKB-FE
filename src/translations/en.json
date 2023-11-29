@@ -75,8 +75,8 @@
         "detail-doctor": {
             "schedule": "Schedule",
             "no-schedule": "The doctor does not have an appointment drung this time, pleas",
-            "choose": "Choose",
-            "book-free": "and book (free)"
+            "choose": "Choose ",
+            "book-free": " and book (free)"
         }
     },
 
@@ -86,7 +86,13 @@
             "select-doctor": "Choose a doctor",
             "intro": "Introductory information:",
             "add": "Create information",
-            "save": "Save information"
+            "save": "Save information",
+            "price": "Price",
+            "payment": "Payment",
+            "province": "Province",
+            "nameClinic": "Clinic's name",
+            "addressClinic": "Clinic's address",
+            "note": "Note"
         }
     }
 }
