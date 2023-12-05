@@ -38,9 +38,9 @@ class ManageSpecialty extends Component {
         })
     }
 
-    handleEditorChange = ({html, text}) => {
+    handleEditorChange = ({ html, text}) => {
         this.setState({
-            desciptionHTML: html,
+            descriptionHTML: html,
             descriptionMarkdown: text,
         })
     }
@@ -51,7 +51,7 @@ class ManageSpecialty extends Component {
         if (file) {
             let base64 = await CommonUtils.getBase64(file);
             this.setState({
-                imageBase64:base64
+                imageBase64: base64
             })
         }
     }
@@ -80,8 +80,8 @@ class ManageSpecialty extends Component {
 
                             <div className="col-6 form-group">
                                 <label>Ảnh chuyên khoa</label>
-                                <input className="form-control-file" type="file" value={this.state.name}
-                                        onChange={(event) => this.handleOnchangeImage(event, 'name')}
+                                <input className="form-control-file" type="file" 
+                                        onChange={(event) => this.handleOnchangeImage(event)}
                                 />
                             </div>
                             <div className="col-12">
@@ -93,7 +93,8 @@ class ManageSpecialty extends Component {
                                 />
                             </div>
                             <div className="col-12">
-                                <button className="btn-save-specialty" onClick={() => this.handleSaveNewSpecialty}>
+                                <button className="btn-save-specialty"
+                                     onClick={() => this.handleSaveNewSpecialty()}>
                                     Save
                                 </button>
                             </div>
